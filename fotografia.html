@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Format Experiment</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header class="bg-blue-500 text-white text-center p-5">
+      <h1 class="text-4xl">Image Format Experiment</h1>
+    </header>
+    <p>
+      Aqui tenim una comparativa de diferents formats d'imatge i la seva
+      qualitat.
+    </p>
+    <main class="p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img
+          src="./images/fotografia/fotografiapng.png"
+          alt="Format PNG"
+          class="w-full"
+        />
+        <div class="image-info p-4 text-gray-700 font-medium">Format PNG</div>
+      </div>
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img
+          src="./images/fotografia/fotografia.gif"
+          alt="Format GIF"
+          class="w-full"
+        />
+        <div class="image-info p-4 text-gray-700 font-medium">Format GIF</div>
+      </div>
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img
+          src="./images/fotografia/fotografia.jpg"
+          alt="Format JPG - qualitat Máxima"
+          class="w-full"
+        />
+        <div class="image-info p-4 text-gray-700 font-medium">
+          Format JPG - qualitat Máxima
+        </div>
+      </div>
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img
+          src="./images/fotografia/fotografia50.jpg"
+          alt="Format JPG - qualitat 50%"
+          class="w-full"
+        />
+        <div class="image-info p-4 text-gray-700 font-medium">
+          Format JPG - qualitat 50%
+        </div>
+      </div>
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img
+          src="./images/fotografia/fotografia10.jpg"
+          alt="Format JPG - qualitat 10%"
+          class="w-full"
+        />
+        <div class="image-info p-4 text-gray-700 font-medium">
+          Format JPG - qualitat 10%
+        </div>
+      </div>
+    </main>
+    <script src="../scripts/main.js"></script>
+  </body>
+</html>
